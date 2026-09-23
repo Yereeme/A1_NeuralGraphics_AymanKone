@@ -23,3 +23,12 @@ block compression.
   Contains `run_p6()`, `run_p7()`, `run_p8()`, each runnable on its own.
 
 ## How to reproduce results
+python A1_S3TC.py.py
+python A1_neural_texture.py
+
+By default `A1_neural_texture.py`'s `__main__` runs all three of `run_p6()`, `run_p7()`,
+and `run_p8()` in a row, which takes a while since it's 19 training runs total. Comment
+out whichever ones you don't need in the `if __name__ == "__main__":` block at the bottom.
+
+Each run prints PSNR/size/compression ratio to the console and saves a side-by-side
+original-vs-reconstructed PNG for every combination it runs.
