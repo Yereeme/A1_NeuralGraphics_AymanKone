@@ -16,7 +16,7 @@ block compression.
 
 ## Files
 
-- `A1_Practice.py` — P1 (bilinear texture sampler) and P2 (S3TC baseline compression).
+- `python A1_S3TC.py` — P1 (bilinear texture sampler) and P2 (S3TC baseline compression).
   Running it processes gradient/bricks/clouds and prints PSNR + compression ratio for each,
   and saves `_s3tc.png` reconstructions next to each original.
 - `A1_neural_texture.py` — P3 through P8, the neural texture compression pipeline.
