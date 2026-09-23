@@ -32,3 +32,6 @@ out whichever ones you don't need in the `if __name__ == "__main__":` block at t
 
 Each run prints PSNR/size/compression ratio to the console and saves a side-by-side
 original-vs-reconstructed PNG for every combination it runs.
+
+Note
+I leveraged AI in my writeup for graph and plots
